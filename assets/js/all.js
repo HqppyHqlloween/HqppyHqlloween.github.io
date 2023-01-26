@@ -4444,7 +4444,7 @@
       });
     }
 
-    namespace.hooks = _objectSpread({}, namespace.hooks, {
+    namespace.hooks = _objectSpread({}, namespace.hooks, {  
       addPack: function addPack(prefix, icons) {
         namespace.styles[prefix] = _objectSpread({}, namespace.styles[prefix] || {}, icons);
         build();
